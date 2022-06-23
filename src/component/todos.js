@@ -15,7 +15,7 @@ const Todos = ({ todos, deleteTodo }) => {
       let color = "#ffffff"
       if(new Date(todo.due) < new Date()){
         color = "#f7dfda"
-        console.log("DATE PASSED")
+        // console.log("DATE PASSED")
       }
       return (
         <Grid key={todo.id}>
